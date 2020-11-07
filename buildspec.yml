@@ -13,7 +13,7 @@ phases:
         commands:
             - echo "we are in the build block"
             - echo "we will run some tests"
-            - grep -Fq "Express" index.html
+            - grep -Fq "Express" routes/index.js
     post_build:
         commands:
             - echo "we are in the post build phase"
